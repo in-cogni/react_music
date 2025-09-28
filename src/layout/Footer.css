@@ -1,0 +1,9 @@
+.footer
+{
+    text-align: center;
+    background-color: rebeccapurple;
+    box-sizing: border-box;
+    padding : 5px 0;
+    font-weight: bold;
+    color: aliceblue;
+}

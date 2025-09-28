@@ -1,0 +1,27 @@
+.music-item
+{
+    border: solid 2px black;
+    display: block;
+    width: 300px;
+    min-height: 300px;
+    padding: 10px;
+    margin: 30px auto;
+    box-shadow: gray 0 0 5px 5px;
+    border-radius: 10px;
+}
+.music-poster
+{
+    box-shadow: gray 0 0 5px 2px;
+    border-radius: 10px;
+}
+.music-item.tile
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 20px; 
+}
+.music-item.list
+{
+    display: block;
+    margin: 30px auto;
+}

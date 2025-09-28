@@ -1,0 +1,45 @@
+.search
+{
+    justify-content: center;
+    margin: 20px 50px;
+}
+.search input
+{
+    width: 600px;
+    color: #999;
+    font-size: 20px;
+    border:0;
+}
+.search input:focus
+{
+    outline: none;
+    border-bottom: 1px solid #CCC;
+}
+.btn
+{
+    padding: 6px 16px;
+    background-color: rgb(0,91,151);
+    color: #FFF;
+    border:2px solid rgb(0,91,151);
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: inset 1px 1px 1px 1px #FFF;
+    cursor:pointer;
+}
+.sort
+{
+    padding: 5px;
+    margin: 20px 0;
+    place-items: center;
+}
+.listile
+{
+    background-color: #FFF;
+    color:#999;
+    border-radius: 15px;
+    width: 65px;
+    height: 60px;
+    font-size: 15px;
+    margin-right: 10px;
+    box-shadow: inset 0px 0px 5px black;
+}

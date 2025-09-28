@@ -1,0 +1,26 @@
+.header
+{
+    background-color: rebeccapurple;
+    color: aliceblue;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.wrap
+{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+}
+.right
+{
+    font-family: 'Calibri';
+    text-align: right;
+    margin-right: 5px;
+}
+.logo
+{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    text-align: left;
+}
