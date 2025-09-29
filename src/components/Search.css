@@ -18,13 +18,17 @@
 .btn
 {
     padding: 6px 16px;
-    background-color: rgb(0,91,151);
+    font-family: Calibri;
+    font-size: 18px;
+    background-color: rebeccapurple;
     color: #FFF;
-    border:2px solid rgb(0,91,151);
+    border: 2px solid rebeccapurple ;
     font-weight: bold;
     border-radius: 6px;
-    box-shadow: inset 1px 1px 1px 1px #FFF;
+    box-shadow: inset 0px 0px 3px 2px #9e76cc;
     cursor:pointer;
+    margin-bottom: 5px;
+    margin-left: 2px;
 }
 .sort
 {

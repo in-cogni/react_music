@@ -4,7 +4,7 @@ import './Search.css';
 class Search extends React.Component {
     state=
     {
-        search: "",
+        search: "kate bush",
         type: "all",
         page: 1
     }
@@ -47,7 +47,7 @@ class Search extends React.Component {
     }
     render() {
     console.log("\n------------------------------------\n")
-    let limit = 10; // Должно совпадать с limit в Main.js (20)
+    let limit = 10;
     let totalPages = Math.ceil(this.props.totalCount / limit);
     
     const lastIndex = Math.min(totalPages, this.state.page + 4);
@@ -83,16 +83,16 @@ class Search extends React.Component {
             
             {totalPages > 0 && (
                 <div className='navigation'>
-                    <button className='btn' onClick={this.prevPage}>Previous</button>
+                    <button className='btn' onClick={this.prevPage}> &larr;&nbsp;&nbsp;&nbsp;Previous&nbsp;&nbsp;</button>
                     <div>
                         {num.map((el, index) => (
                             <button className='btn' key={index} onClick={()=>(this.setPage(el))} 
-                                style={{background: this.state.page !== el ? "grey" : ""}}>
+                                style={{background: this.state.page !== el ? "#b29dd3ff" : ""}}>
                                 {el}
                             </button>
                         ))}
                     </div>
-                    <button className='btn' onClick={this.nextPage}>Next</button>
+                    <button className='btn' onClick={this.nextPage}>&nbsp;Next&nbsp;&nbsp;&nbsp;&rarr;</button>
                 </div>
             )}
             
